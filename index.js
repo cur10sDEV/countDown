@@ -1,7 +1,7 @@
 const countdown = () => {
 
 	// Assign Dates
-    const countDate = new Date('November 03, 2101 00:00:00').getTime();
+    const countDate = new Date('November 03, 2021 00:00:00').getTime();
     const now = new Date().getTime();
     const timeLeft = countDate - now;
 
